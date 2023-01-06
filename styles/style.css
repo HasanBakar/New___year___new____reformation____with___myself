@@ -89,6 +89,10 @@ main {
     position: relative;
 }
 
+.watch_image_section {
+    background-image: linear-gradient(hsla(0, 100%, 50%, 0.65), hsla(120, 100%, 25%, 0.65));
+}
+
 .watch_image_text {
     position: absolute;
     left: 49px;
