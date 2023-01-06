@@ -24,7 +24,32 @@
 
 .banner__text button {
     padding: 10px 24px;
+    margin-top: 8px;
     font-size: medium;
     border-radius: 6px;
     border: none;
+}
+
+.hero__section {
+    position: relative;
+}
+
+.hero__section img {
+    position: absolute;
+    left: 155px;
+
+}
+
+#my__failures {
+    position: absolute;
+    top: 309px;
+    left: 806px;
+    right: 330px;
+}
+
+.check__list span {
+    color: green;
+    font-size: medium;
+    font-weight: bold;
+    margin-right: 5px;
 }
