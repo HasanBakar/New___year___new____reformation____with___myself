@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.banner {
+    position: relative;
+}
+
+.banner>img {
+    width: 100%;
+    height: auto;
+}
+
+.banner__text {
+    position: absolute;
+    top: 175px;
+    right: 315px;
+    left: 841px;
+    color: white;
+    font-size: 21px;
+    text-align: right;
+}
+
+.banner__text button {
+    padding: 10px 24px;
+    font-size: medium;
+    border-radius: 6px;
+    border: none;
+}
