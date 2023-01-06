@@ -78,3 +78,28 @@ main {
     right: 50px;
     margin-bottom: 30px;
 }
+
+.watch___section {
+    position: absolute;
+    top: 1037px;
+    left: 165px;
+}
+
+.watch_image_section {
+    position: relative;
+}
+
+.watch_image_text {
+    position: absolute;
+    left: 49px;
+    bottom: 60px;
+    color: white;
+}
+
+#call_now {
+    padding: 10px 24px;
+    margin-top: 8px;
+    font-size: medium;
+    border-radius: 6px;
+    border: none;
+}
