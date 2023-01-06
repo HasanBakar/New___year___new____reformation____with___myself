@@ -30,8 +30,13 @@
     border: none;
 }
 
+main {
+    position: relative;
+}
+
 .hero__section {
     position: relative;
+    margin-bottom: 20px;
 }
 
 .hero__section img {
@@ -52,4 +57,24 @@
     font-size: medium;
     font-weight: bold;
     margin-right: 5px;
+}
+
+.my__plans__heading {
+    position: absolute;
+    top: 790px;
+    left: 690px;
+}
+
+.plan {
+    text-align: center;
+}
+
+.plans__item {
+    display: flex;
+    justify-content: space-evenly;
+    position: absolute;
+    top: 859px;
+    left: 50px;
+    right: 50px;
+    margin-bottom: 30px;
 }
