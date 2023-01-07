@@ -3,6 +3,38 @@
     padding: 0;
 }
 
+nav {
+    padding: 0 4px;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav>ul {
+    display: flex;
+}
+
+#contact_me_button {
+    padding: 2px 10px;
+    background-color: rgba(207, 171, 12, 0.456);
+    border: 3px solid goldenrod;
+}
+
+nav>ul li {
+    list-style: none;
+    margin-right: 60px;
+    margin-top: 14px;
+    font-size: 18px;
+    font-weight: 500;
+
+}
+
+.nav__title {
+    font-weight: 800;
+    font-size: 35px;
+    color: rgb(241, 185, 170);
+}
+
+/* top banner start  */
 .banner {
     position: relative;
 }
@@ -30,6 +62,9 @@
     border: none;
 }
 
+/* top banner end  */
+
+/* start main part here  */
 main {
     position: relative;
 }
@@ -111,6 +146,9 @@ main {
     border: none;
 }
 
+/* ended main part here  */
+
+/* start footer styling  */
 .footer__position {
     position: relative;
 }
@@ -159,3 +197,5 @@ main {
     font-size: 16px;
     padding: 8px 37px;
 }
+
+/* ended footer styling  */
