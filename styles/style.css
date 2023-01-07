@@ -97,8 +97,11 @@ main {
     position: absolute;
     left: 49px;
     bottom: 60px;
+    opacity: 0.57;
     color: white;
 }
+
+
 
 #call_now {
     padding: 10px 24px;
@@ -106,4 +109,53 @@ main {
     font-size: medium;
     border-radius: 6px;
     border: none;
+}
+
+.footer__position {
+    position: relative;
+}
+
+.footer__flex {
+    display: flex;
+    position: absolute;
+    justify-content: space-between;
+    background-color: rgb(7, 7, 7);
+    color: white;
+    padding-right: 20px;
+    padding-top: 40px;
+    height: 270px;
+    top: 1435px;
+
+}
+
+.footer_future {
+    margin-right: 40px;
+    margin-left: 10px;
+    padding-right: 456px;
+    padding-left: 96px;
+}
+
+
+
+.subscribe__part {
+    padding-right: 60px;
+}
+
+
+
+#subscribe_input_field {
+    width: 225px;
+    height: 26px;
+    color: white;
+    background-color: black;
+    font-weight: bolder;
+    padding-left: 14px;
+    border: 1px solid white;
+    margin-bottom: 12px;
+    margin-top: 12px;
+}
+
+#subscribe_button {
+    font-size: 16px;
+    padding: 8px 37px;
 }
